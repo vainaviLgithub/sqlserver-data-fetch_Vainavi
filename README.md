@@ -10,7 +10,7 @@
 
 This project demonstrates how to establish a secure connection between Python and a remote SQL Server database, fetch data from a specific table, and perform data analysis and export operations. It serves as a proof of concept for real-world data engineering tasks involving external database connectivity, query optimization, error handling, and scripting automation.
 
-## 🛠 Tools & Libraries Used
+##  Tools & Libraries Used
 
 * Python 3.x
 * SQL Server
@@ -46,7 +46,7 @@ sql-data-project/
 ```
 
 
-## ⚙️ How to Run
+##  How to Run
 
 ```bash
 # Install dependencies
@@ -59,13 +59,13 @@ python scripts/fetch_employees.py --limit 5
 python scripts/fetch_employees.py --limit 10 --export
 ```
 
-## 📊 Sample Outputs
+## Sample Outputs
 
 * Top employee records printed in terminal
 * Aggregated stats by department
 * CSV output saved to `employees.csv`
 
-## 🧪 Data Generation
+## Data Generation
 
 Used the `Faker` library to insert \~350 employee records into the `Employees` table.
 Each record contains realistic values for:
@@ -83,13 +83,13 @@ This ensures:
 * Error handling works on large datasets
 * Realistic testing scenarios
 
-## 🧱 Challenges Faced
+## Challenges Faced
 * Handling `pyodbc` connection errors robustly
 * Formatting and parsing dates using Faker
 * Testing connectivity across remote IP
 * Maintaining modularity and code reusability
 
-## 📦 Deliverables
+## Deliverables
 
 * `generate_employee_data.py`: inserts \~350 records into `Employees`
 * `fetch_employees.py`: connects to DB and prints/analyzes/export data
@@ -98,7 +98,7 @@ This ensures:
 * `requirements.txt`: installation dependencies
 * `outputs/`: contains screenshots and sample output CSVs
 
-## 🏷 Recommended GitHub Tags
+## Recommended GitHub Tags
 
 `Python` `SQL Server` `Data Engineering` `Intern Project` `pyodbc` `Faker` `ETL` `Pandas` `Database Connectivity`
 
