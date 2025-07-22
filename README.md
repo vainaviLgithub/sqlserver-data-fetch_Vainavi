@@ -26,12 +26,5 @@ A Python project that connects to a remote SQL Server database and retrieves emp
 Install via:
 ```bash
 pip install -r requirements.txt
-### 🔐 .env Setup
 
-This project uses environment variables to securely connect to SQL Server.
-
-1. Copy the file `.env.example` to `.env`:
-
-```bash
-cp .env.example .env
 
